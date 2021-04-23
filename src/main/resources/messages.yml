@@ -1,0 +1,24 @@
+messages:
+  plugin:
+    line1: '&3----------&a CustomMOTD &3----------'
+    line2: '&2Version &aV'
+    line3: '&aDo /cm help for a list of commands!'
+    line4: '&2Plugin made by'
+    line5: '&3------------------------------'
+  help:
+    line1: '&3----------&a CustomMOTD &3----------'
+    line2: '&2/cm &aHead command'
+    line3: '&2/cm help &aHelp menu'
+    line4: '&2/cm update &aCheck for updates'
+    line5: '&2/cm reload &aReload the plugin'
+    line6: '&3------------------------------'
+  command:
+    not-found: '&4Error: &cCommand not found, do &e/cm help &cfor a list of commands!'
+    no-permission: '&4Error: &cYou don''t have permission to use this command!'
+  commands:
+    reload: '&aPlugin reloaded!'
+  update:
+    deactivated: '&6Warning: &eUpdate checking is disabled!'
+    not-available: '&aThere is no update available, you are on the latest version!'
+    available: '&cThere is an update available! You are on version &e%version%&a, the newest version is &e%new-version%&a!'
+    available_2: '&eDownload here: https://www.spigotmc.org/resources/custommotd.82470/'

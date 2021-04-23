@@ -1,0 +1,23 @@
+name: ${project.name}
+main: me.tvhee.custommotd.bungeecord.CustomMOTDPlugin
+version: ${project.version}
+author: tvhee
+api-version: 1.13
+commands:
+   cm:
+      description: Head command
+      usage: /<command>
+   cm help:
+      description: Help menu
+      usage: /<command> help
+   cm update:
+      description: Check for updates
+      usage: /<command> help
+   cm reload:
+      description: Reload plugin
+      usage: /<command> reload
+permissions:
+   custommotd.reload:
+      default: op
+   custommotd.updates:
+      default: op
