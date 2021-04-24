@@ -1,9 +1,9 @@
 package me.tvhee.custommotd.bungeecord.listeners;
 
 import me.tvhee.api.bungeecord.chat.ChatUtils;
+import me.tvhee.custommotd.bungeecord.updater.Updater;
 import me.tvhee.custommotd.bungeecord.util.ConfigFiles;
 import me.tvhee.custommotd.bungeecord.util.Messages;
-import me.tvhee.plugin.Updater;
 
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.connection.ProxiedPlayer;

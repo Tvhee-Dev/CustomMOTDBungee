@@ -23,6 +23,10 @@
             <id>bungeecord-repo</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </repository>
+        <repository>
+            <id>tvheeAPI</id>
+            <url>https://raw.githubusercontent.com/tvhee-dev/tvheeAPI/master/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -32,6 +36,11 @@
             <version>${bungee.version}</version>
             <type>jar</type>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>me.tvhee</groupId>
+            <artifactId>tvheeAPI</artifactId>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 
